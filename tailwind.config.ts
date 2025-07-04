@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        gantari: ["Gantari", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,10 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        homeflip: {
+          purple: "#5E1177",
+          light: "#F5F5F7",
         },
       },
       borderRadius: {
